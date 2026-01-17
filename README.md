@@ -1,6 +1,6 @@
 
-# `gradio_improvedfileexplorer`
-<img alt="Static Badge" src="https://img.shields.io/badge/version%20-%200.0.1%20-%20orange">  
+
+<img alt="Static Badge" src="https://img.shields.io/badge/version%20-%201.0.0%20-%20green">  
 
 Improved UI because it includes breaking changes.
 
@@ -38,12 +38,18 @@ This component works basically the same as Gradio's original File Explorer, but 
 Up to this date, Gradio has a bug that if you allow users to only select folders (`glob = "./**/"`) and `file_count = "single"`, you can not select anything. Look at this [issue](https://github.com/gradio-app/gradio/pull/9835#issuecomment-2490603744).
 
 This problem is solved by changing you select folders. Now the checkbox nect to them select the folder
-![](/src/image.png)
+
+
+![](https://github.com/GrunyD/gradio-improved-file-explorer/blob/main/src/image.png?raw=True)
 
 ### No recursive selection
 When you select folder it no longer selects everything inside nor it opens the file tree. It just selects the folder.
-![](/src/image_2.png)
+
+
+![](https://github.com/GrunyD/gradio-improved-file-explorer/blob/main/src/image_2.png?raw=True)
 
 ### Select all contents of a folder
 If you need to select all the contents of a folder, you can open the folder and select "Select all contents" whcih will select or deselect everything inside the folder. **It will not select the folder itself*
-![](/src/image_3.png)
+
+
+![](https://github.com/GrunyD/gradio-improved-file-explorer/blob/main/src/image_3.png?raw=True)
